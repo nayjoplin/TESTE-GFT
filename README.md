@@ -32,16 +32,22 @@ TESTE-GFT/
 
 ---
 
-### Desafio 01
+### Desafio 01 
+
 javac DESAFIO-01-Controle-de-Tarefas-Simples/src/Tarefa.java DESAFIO-01-Controle-de-Tarefas-Simples/src/ControleTarefas.java
 java -cp DESAFIO-01-Controle-de-Tarefas-Simples/src ControleTarefas
+
 ---
 ### Desafio 02
+
 javac DESAFIO-02-Calculo-de-Media-de-Temperaturas/src/MediaTemperaturas.java
 java -cp DESAFIO-02-Calculo-de-Media-de-Temperaturas/src MediaTemperaturas
 
+---
 ### Desafio 03
+
 DESAFIO-03-Prompt-IA-Dados-Sensiveis/PROMPT.md
+
 ---
 ### Desafio 01 – Controle de Tarefas Simples
 Classe Tarefa com atributos descricao e concluida.
