@@ -1,0 +1,17 @@
+# Compilados
+*.class
+*.jar
+*.war
+*.ear
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+out/
+target/
+bin/
+
+# SO
+.DS_Store
+Thumbs.db
