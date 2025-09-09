@@ -1,15 +1,24 @@
-# Desafio 01 – Controle de Tarefas Simples
+# desafio 01 - controle de tarefas simples
 
-## Objetivo
-- Criar uma classe `Tarefa` com atributos `descricao` e `concluida`.  
-- Métodos para marcar como concluída e exibir no formato:  
-  - `[ ] Descrição` (pendente)  
-  - `[X] Descrição` (concluída)  
-- No programa principal, criar pelo menos 2 tarefas e alterar o status de uma delas.
+## _o que é
+um programa em java que permite criar tarefas, marcar como concluídas e exibir no formato:
+[ ] descrição (pendente)  
+[X] descrição (concluída)
 
 ---
 
-## Como executar (a partir da raiz)
+## _por que
+o objetivo é praticar programação orientada a objetos (poo), criando uma classe simples e aplicando métodos básicos para manipular o estado de um objeto.
+
+## _como foi feito
+foi criada a classe `Tarefa` com os atributos `descricao` e `concluida`.  
+há um método para marcar como concluída e outro para formatar a saída.  
+no programa principal (`ControleTarefas`), duas tarefas são criadas, o usuário escolhe uma para concluir e ambas são exibidas no console.
+
+---
+
+## _como executar
+na raiz do repositório, compile e execute:
 
 ```bash
 javac DESAFIO-01-Controle-de-Tarefas-Simples/src/Tarefa.java DESAFIO-01-Controle-de-Tarefas-Simples/src/ControleTarefas.java
